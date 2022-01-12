@@ -1,0 +1,353 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\GraphQLWebAPIDemo\\GraphQLWebAPIDemo.csproj": {}
+  },
+  "projects": {
+    "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\GraphQLWebAPIDemo\\GraphQLWebAPIDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\GraphQLWebAPIDemo\\GraphQLWebAPIDemo.csproj",
+        "projectName": "GraphQLWebAPIDemo",
+        "projectPath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\GraphQLWebAPIDemo\\GraphQLWebAPIDemo.csproj",
+        "packagesPath": "C:\\Users\\103232\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\GraphQLWebAPIDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\103232\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.DataAccess\\RealEstateManager.DataAccess.csproj": {
+                "projectPath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.DataAccess\\RealEstateManager.DataAccess.csproj"
+              },
+              "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Database\\RealEstateManager.Database.csproj": {
+                "projectPath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Database\\RealEstateManager.Database.csproj"
+              },
+              "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Types\\RealEstateManager.Types.csproj": {
+                "projectPath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Types\\RealEstateManager.Types.csproj"
+              },
+              "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Utilities\\RealEstateManager.Utilities.csproj": {
+                "projectPath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Utilities\\RealEstateManager.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "graphiql": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.DataAccess\\RealEstateManager.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.DataAccess\\RealEstateManager.DataAccess.csproj",
+        "projectName": "RealEstateManager.DataAccess",
+        "projectPath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.DataAccess\\RealEstateManager.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\103232\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\103232\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Database\\RealEstateManager.Database.csproj": {
+                "projectPath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Database\\RealEstateManager.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Database\\RealEstateManager.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Database\\RealEstateManager.Database.csproj",
+        "projectName": "RealEstateManager.Database",
+        "projectPath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Database\\RealEstateManager.Database.csproj",
+        "packagesPath": "C:\\Users\\103232\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\103232\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Types\\RealEstateManager.Types.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Types\\RealEstateManager.Types.csproj",
+        "projectName": "RealEstateManager.Types",
+        "projectPath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Types\\RealEstateManager.Types.csproj",
+        "packagesPath": "C:\\Users\\103232\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Types\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\103232\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.DataAccess\\RealEstateManager.DataAccess.csproj": {
+                "projectPath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.DataAccess\\RealEstateManager.DataAccess.csproj"
+              },
+              "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Database\\RealEstateManager.Database.csproj": {
+                "projectPath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Database\\RealEstateManager.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Utilities\\RealEstateManager.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Utilities\\RealEstateManager.Utilities.csproj",
+        "projectName": "RealEstateManager.Utilities",
+        "projectPath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Utilities\\RealEstateManager.Utilities.csproj",
+        "packagesPath": "C:\\Users\\103232\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\103232\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "GraphQL.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+D:\Repos\Demos\GraphQLWebAPIDemo\RealEstateManager.Utilities\bin\Debug\netcoreapp3.1\RealEstateManager.Utilities.deps.json
+D:\Repos\Demos\GraphQLWebAPIDemo\RealEstateManager.Utilities\bin\Debug\netcoreapp3.1\RealEstateManager.Utilities.dll
+D:\Repos\Demos\GraphQLWebAPIDemo\RealEstateManager.Utilities\bin\Debug\netcoreapp3.1\RealEstateManager.Utilities.pdb
+D:\Repos\Demos\GraphQLWebAPIDemo\RealEstateManager.Utilities\obj\Debug\netcoreapp3.1\RealEstateManager.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\Demos\GraphQLWebAPIDemo\RealEstateManager.Utilities\obj\Debug\netcoreapp3.1\RealEstateManager.Utilities.AssemblyInfoInputs.cache
+D:\Repos\Demos\GraphQLWebAPIDemo\RealEstateManager.Utilities\obj\Debug\netcoreapp3.1\RealEstateManager.Utilities.AssemblyInfo.cs
+D:\Repos\Demos\GraphQLWebAPIDemo\RealEstateManager.Utilities\obj\Debug\netcoreapp3.1\RealEstateManager.Utilities.csproj.CoreCompileInputs.cache
+D:\Repos\Demos\GraphQLWebAPIDemo\RealEstateManager.Utilities\obj\Debug\netcoreapp3.1\RealEstateManager.Utilities.dll
+D:\Repos\Demos\GraphQLWebAPIDemo\RealEstateManager.Utilities\obj\Debug\netcoreapp3.1\RealEstateManager.Utilities.pdb
+D:\Repos\Demos\GraphQLWebAPIDemo\RealEstateManager.Utilities\obj\Debug\netcoreapp3.1\RealEstateManager.Utilities.csproj.AssemblyReference.cache

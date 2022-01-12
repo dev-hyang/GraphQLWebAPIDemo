@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "BqmWBceXKM4IoqT00rckyVSLO9xbYWXRn5ALHZmRPkHfTTSIuOAr0lru6hneeQcRAuGQuFOVpjaDBv412ARrWA==",
+  "success": true,
+  "projectFilePath": "D:\\Repos\\Demos\\GraphQLWebAPIDemo\\RealEstateManager.Utilities\\RealEstateManager.Utilities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\103232\\.nuget\\packages\\graphql\\4.0.0\\graphql.4.0.0.nupkg.sha512",
+    "C:\\Users\\103232\\.nuget\\packages\\graphql-parser\\7.0.0\\graphql-parser.7.0.0.nupkg.sha512",
+    "C:\\Users\\103232\\.nuget\\packages\\graphql.newtonsoftjson\\4.0.0\\graphql.newtonsoftjson.4.0.0.nupkg.sha512",
+    "C:\\Users\\103232\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\103232\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\103232\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\103232\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\103232\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
